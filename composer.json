@@ -1,45 +1,45 @@
 {
   "name": "dft/silverstripe-custommenus",
   "description": "A Silverstripe module allowing you to create custom menus that can be gernated in the front end of your site.",
-	"type": "silverstripe-vendormodule",
-	"homepage": "http://github.com/Dean-Forest-Tech/silverstripe-custommenus",
-	"keywords": [
-		"silverstripe",
-		"nav",
-		"menus",
-		"navigation"
-	],
-	"license": "BSD-3-Clause",
-	"authors": [
-		{
-		  "name": "Dean Forest Tech",
-		  "homepage": "https://dean-forest-tech.uk"
-		}
-	],
-	"support": {
-		"issues": "http://github.com/Dean-Forest-Tech/silverstripe-custommenus/issues"
-	},
-	"require": {
-		"silverstripe/framework": "^4 || ^5",
-        "silverstripe/cms": "^4 || ^5",
-		"silverstripe/siteconfig": "^4 || ^5",
-		"symbiote/silverstripe-gridfieldextensions": "^3 || ^4",
-		"nathancox/hasoneautocompletefield": "^2 || ^3"
-	},
-    "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "squizlabs/php_codesniffer": "^3.0"
-	},
-    "autoload": {
-        "psr-4": {
-            "DFT\\SilverStripe\\CustomMenus\\": "src/",
-            "DFT\\SilverStripe\\CustomMenus\\Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "lint": "vendor/bin/phpcs src/ tests/",
-        "lint-clean": "vendor/bin/phpcbf src/ tests/"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "type": "silverstripe-vendormodule",
+  "homepage": "http://github.com/Dean-Forest-Tech/silverstripe-custommenus",
+  "keywords": [
+    "silverstripe",
+    "nav",
+    "menus",
+    "navigation"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dean Forest Tech",
+      "homepage": "https://dean-forest-tech.uk"
+    }
+  ],
+  "support": {
+    "issues": "http://github.com/Dean-Forest-Tech/silverstripe-custommenus/issues"
+  },
+  "require": {
+    "silverstripe/framework": "^4 || ^5",
+    "silverstripe/cms": "^4 || ^5",
+    "silverstripe/siteconfig": "^4 || ^5",
+    "symbiote/silverstripe-gridfieldextensions": "^3 || ^4",
+    "nathancox/hasoneautocompletefield": "^2 || ^3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "squizlabs/php_codesniffer": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DFT\\SilverStripe\\CustomMenus\\": "src/",
+      "DFT\\SilverStripe\\CustomMenus\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "lint": "vendor/bin/phpcs src/ tests/",
+    "lint-clean": "vendor/bin/phpcbf src/ tests/"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
